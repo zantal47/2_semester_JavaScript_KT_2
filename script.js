@@ -123,8 +123,7 @@ function render(array){
 
         let td_imgLink_image = document.createElement('img');
 
-        //td_imgLink_image.src = '"' + elem.img_link + '"';
-        //td_imgLink_image.src = "url(" + elem.img_link + ")";
+
         td_imgLink_image.src = elem.img_link;
         td_imgLink_image.alt = 'Фотография кошки';
         td_imgLink_image.width = "100";
